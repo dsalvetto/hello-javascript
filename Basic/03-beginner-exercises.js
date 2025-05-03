@@ -7,9 +7,51 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=4733
 
 // 2. Escribe un comentario en varias líneas
 
+/* 
+
+
+fdhg
+dfh
+dfh
+dfh
+dfh
+dfh
+*/
+
+
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
 
-// 4. Imprime por consola el valor de todas las variables
+//string
+let myName = "Diego Salvetto"
+//numbers
+let age = 22
+let height = 1.73
+console.log(myName)
+console.log(age)
+console.log(height)
+//boleanos
+let isRaining= false
+let isCloudy =true
+console.log(isRaining)
+console.log(isCloudy)   
+//undefined
+let undefinedValue = undefined
+let undefinedValue2
+console.log(undefinedValue2)
+console.log(undefinedValue)
+// null
+let nullValue = null
+console.log(nullValue)
+
+// symbol
+let mySymbol = Symbol("%")
+console.log(mySymbol)
+
+// bigInt
+let myBigInt = BigInt(1234567890123456789012345678901234567890)
+console.log(myBigInt)
+// 4. Imprime por consola el valor de todas las variables, hecho
+
 
 // 5. Imprime por consola el tipo de todas las variables
 
