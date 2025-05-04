@@ -54,10 +54,46 @@ console.log(myBigInt)
 
 
 // 5. Imprime por consola el tipo de todas las variables
+console.log(typeof myName) // string
+console.log(typeof age) // number
+console.log(typeof height) // number
+console.log(typeof isRaining) // boolean
+console.log(typeof isCloudy) // boolean
+console.log(typeof undefinedValue) // undefined
+console.log(typeof undefinedValue2) // undefined
+console.log(typeof nullValue) // object (esto es un bug de JavaScript)
+console.log(typeof mySymbol) // symbol
+console.log(typeof myBigInt) // bigint    
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
+myName = "Juan Pérez"
+age = 30
+height = 1.80
+isRaining = true
+isCloudy = false
+undefinedValue = "No definido"
+undefinedValue2 = "No definido 2"
+nullValue = "Valor nulo"
+mySymbol = Symbol("Nuevo símbolo")
+myBigInt = BigInt(9876543210987654321098765432109876543210)
+console.log(myName) // "Juan Pérez"
+console.log(age) // 30
+console.log(height) // 1.80
+console.log(isRaining) // true
+console.log(isCloudy) // false
+console.log(undefinedValue) // "No definido"
+console.log(undefinedValue2) // "No definido 2"
+console.log(nullValue) // "Valor nulo"
+console.log(mySymbol) // Symbol("Nuevo símbolo")
+console.log(myBigInt) // 9876543210987654321098765432109876543210
+
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
+
+myName = 12345 // Cambiado a número
+age = "Treinta" // Cambiado a string
+console.log(myName) // 12345
+console.log(age) // "Treinta"
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
